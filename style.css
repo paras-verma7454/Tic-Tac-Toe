@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.game{
+    text-align: center;
+    margin: 2vw 0;
+}
+
+
+.board{
+    
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 4vw 40vw;
+    font-family: "Permanent Marker", cursive;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+.cell{
+    height: 6vw;
+    width: 6vw;
+    border: 2px solid ;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 0 2px;
+    font-size: 5em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    line-height: 5vw;
+}
+.stats{
+    font-size: 3em;
+}
